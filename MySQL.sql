@@ -1,0 +1,17 @@
+DROP DATABASE IF EXISTS jugadoresCartas;
+CREATE DATABASE jugadoresCartas;
+
+USE jugadoresCartas;
+
+CREATE TABLE Partidas
+(ID INTEGER,
+resultado TEXT,
+fecha INTEGER
+)ENGINE=InnoDB;
+
+INSERT INTO Partidas VALUES (0, 'Raul',10101000);
+INSERT INTO Partidas VALUES (1, 'Dennis',14102020);
+INSERT INTO Partidas VALUES (2, 'Raul',01010001);
+INSERT INTO Partidas VALUES (3, 'Dennis',01010001);
+INSERT INTO Partidas VALUES (4, 'Marian',01010001);
+INSERT INTO Partidas VALUES (5, 'Raul',01010001);
